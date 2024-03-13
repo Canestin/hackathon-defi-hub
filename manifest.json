@@ -1,0 +1,42 @@
+{
+  "id": "SampleLiveApp",
+  "name": "SampleLiveApp",
+  "url": "http://localhost:3000",
+  "params": {
+    "dappUrl": "http://localhost:3000",
+    "nanoApp": "SampleLiveApp",
+    "dappName": "SampleLiveApp",
+    "networks": [
+      {
+        "currency": "ethereum",
+        "chainID": 1,
+        "nodeURL": "..."
+      }
+    ]
+  },
+  "homepageUrl": "http://localhost:3000",
+  "platform": ["ios", "android", "desktop"],
+  "apiVersion": "^2.0.0",
+  "manifestVersion": "2",
+  "branch": "stable",
+  "categories": ["NFT", "Swap", "YourAppCategory"],
+  "currencies": "*",
+  "content": {
+    "shortDescription": {
+      "en": "Test Desc Sample App"
+    },
+    "description": {
+      "en": "Test Desc Sample App"
+    }
+  },
+  "permissions": [
+    "wallet.userId",
+    "wallet.info",
+    "message.sign",
+    "currency.list",
+    "account.list",
+    "account.request"
+  ],
+  "domains": ["http://*"],
+  "visibility": "complete"
+}
